@@ -1,0 +1,3 @@
+#!/bin/bash
+FILENAME="$(pwd)/hello"
+$(chmod 763 $FILENAME)
