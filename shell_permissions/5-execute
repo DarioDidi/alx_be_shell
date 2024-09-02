@@ -1,3 +1,2 @@
 #!/bin/bash
-FILENAME="$(pwd)/hello"
-$(chmod 744 $FILENAME)
+$(chmod 744 "$(pwd)/hello")
